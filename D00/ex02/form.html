@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="./popup.js"></script>
+	</head>
+	<body>
+		<form>
+        	<label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" name="firstname"><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="XX-XXXXX-XXXX" id="phone" name="phone"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="student">Student at 42?</label>
+            <input type="checkbox" id="student" name="student"><br><br>      
+            <div>
+				<input type="radio" id="gender_male" name="gender" value="Male">
+				<label for="gender_male">Male</label>
+				<input type="radio" id="gender_female" name="gender" value="Female">
+				<label for="gender_female">Female</label>
+				<input type="radio" id="gender_other" name="gender" value="Other">
+				<label for="gender_other">Other</label>
+            </div>
+    		<button onclick="displayFormContents()">Run that sexy Javascript!</button>
+		</form>
+	</body>
+</html>
