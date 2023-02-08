@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>This is my CV</title>
+	</head>
+	<body>
+		<h1>Hello! This is my CV!</h1>
+		<p>Name: {name}</p>
+		<p>Age: {age}</p>
+		<p>Skills: {skills}</p>
+		<p>Occupation: {job}</p>
+	</body>
+<html>
