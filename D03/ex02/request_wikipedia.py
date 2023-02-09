@@ -19,7 +19,6 @@ def request_wiki_search():
 		print("Could not connect to the given URL.")
 	try:
 		data = response.json()
-		print(data)
 	except Exception:
 		print("Could not write in JSON format.")
 	try:

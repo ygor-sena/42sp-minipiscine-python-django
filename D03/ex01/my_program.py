@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from local_lib.path import Path
 
 def main():
